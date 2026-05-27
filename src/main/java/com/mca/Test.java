@@ -16,6 +16,9 @@ public class Test {
 		EmployeeService e1 = (EmployeeService) app.getBean("employeeService");
 		e1.working();
 		
+		RCB r = (RCB)app.getBean("myRCB");
+		r.cup();
+		
 		app.close();
 	}
 }

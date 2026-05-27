@@ -2,9 +2,9 @@ package com.mca;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component(value="myRCB")
 public class RCB {
-	public void play() {
-		
+	public void cup() {
+		System.out.println("Is saal cup naam duu!!");
 	}
 }
